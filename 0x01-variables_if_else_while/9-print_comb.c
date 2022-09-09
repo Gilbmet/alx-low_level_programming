@@ -1,6 +1,8 @@
 #include<stdio.h>
+#include <stdlib.h>
 /**
  * main - entry point
+ *
  * Return: 0
  */
 int main(void)
@@ -10,13 +12,13 @@ int main(void)
 	while (i <= 57)
 	{
 		putchar(i);
-	if (i != 57)
-	{	
+		if (i != 57)
+		{
 			putchar(',');
 			putchar(' ');
-	}
+		}
 		i++;
-	}	
+	}
 	putchar('\n');
 	return (0);
 }
