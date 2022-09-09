@@ -1,29 +1,25 @@
-#include <stdio.h>
-
-
+#include<stdio.h>
+#include <stdlib.h>
 /**
  * main - entry point
- * Return: always 0 (success)
+ *
+ * Return: 0
  */
 int main(void)
-
 {
-	int number;
-
-	for (number = 48; number <= 57; number++)
-	{
-		putchar(number);
-	}
-	if (number == 57)
-	{
-		break;
-	}
-
-	putchar(',');
-	putchar(' ');
+		int i = 48;
+		/* your code goes there */
+  		while (i <= 57)
+		{
+			putchar(i);
+			if (i != 57)
+			{	
+				putchar(',');
+				putchar(' ');
+			}
+			i++;
+		}
+		putchar('\n');
+		return (0);
 }
-
-putchar('\n');
-
-return (0);
 
