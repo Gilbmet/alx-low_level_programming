@@ -7,19 +7,15 @@
  */
 int main(void)
 {
-	int i = 48;
+	char ch = 'z';
+	int i = 26;
 	/* your code goes there */
-	while (i <= 57)
+	while (i > 0)
 	{
-		putchar(i);
-		if (i != 57)
-		{
-			putchar(',');
-			putchar(' ');
-		}
-		i++;
+		putchar(ch);
+		ch--;
+		i--;
 	}
 	putchar('\n');
 	return (0);
 }
-

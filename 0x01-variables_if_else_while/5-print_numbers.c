@@ -7,19 +7,15 @@
  */
 int main(void)
 {
-	int i = 48;
+	char ch = '0';
+	int i = 0;
 	/* your code goes there */
-	while (i <= 57)
+	while (i < 10)
 	{
-		putchar(i);
-		if (i != 57)
-		{
-			putchar(',');
-			putchar(' ');
-		}
+		putchar(ch);
+		ch++;
 		i++;
 	}
 	putchar('\n');
 	return (0);
 }
-

@@ -1,43 +1,24 @@
-#include <stdio.h>                                                                                                                 
+#include<stdio.h>
+#include<stdlib.h>
+#include<time.h>
+/**
+ * main - entry point
+ *
+ * Return: 0
+ */
 
-/**                                                                                                                                
+int main(void)
 
-* main - print if the number is zero, positive or negative                                                                         
+{
+	char letter;
 
-*                                                                                                                                  
+	for (letter = 'a'; letter <= 'z'; letter++)
+		putchar(letter);
 
-* Description: using the function                                                                                                  
+	for (letter = 'A'; letter <= 'Z'; letter++)
+		putchar(letter);
 
-* This program prints "Programming is positive, zero or negative                                                                   
+	putchar('\n');
 
-* Return: 0                                                                                                                        
-
-*/                                                                                                                                 
-
-int main(void)                                                                                                                     
-
-{                                                                                                                                  
-
-char ch;                                                                                                                           
-
-for (ch = 'a' ; ch = 'z' ; ch++)                                                                                                   
-
-{                                                                                                                                  
-
-        putchar(ch);                                                                                                               
-
-}                                                                                                                                  
-
-for (ch = 'A' ; ch <= 'Z' ; ch++)                                                                                                  
-
-{                                                                                                                                  
-
-        putchar(ch);                                                                                                               
-
-}                                                                                                                                  
-
-putchar('\n');                                                                                                                     
-
-return (0);                                                                                                                        
-
-}       
+	return (0);
+}
