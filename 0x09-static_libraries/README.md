@@ -1,1 +1,1 @@
-Static librsries
+Static libraries
