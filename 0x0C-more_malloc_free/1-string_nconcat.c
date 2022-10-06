@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stddef.h>
+#include <stdlib.h>
 
 /**
  * string_nconcat - concentrates two strings.
@@ -43,7 +45,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	{
 		p[i] = s2[i - size1];
 	}
-	p[i] = '\0'
+	p[i] = '\0';
 
 return (p);
 }
